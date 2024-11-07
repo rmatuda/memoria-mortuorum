@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -9,6 +10,7 @@ interface IInteractable
 public class Interactor : MonoBehaviour
 {
 
+    public TextMeshProUGUI mainText;
     public Transform InteractorSource;
     public float InteractRange;
 
@@ -23,6 +25,11 @@ public class Interactor : MonoBehaviour
                 if (hitInfo.collider.gameObject.TryGetComponent(out IInteractable interactObj))
                 {
                     interactObj.Interact();
+                    Debug.Log("Anomalia: " + interactObj);
+                    if(hitInfo.transform.tag == "Anomalia")
+                    {
+                        mainText.text = "Anomalia: " + hitInfo.transform.name;
+                    }
                 }
             }
         }
