@@ -2,6 +2,7 @@ fileFormatVersion: 2
 guid: 012fd8b7e910f804caadf295d5d45e2f
 labels:
 - Animation
+<<<<<<< Updated upstream
 AssetOrigin:
   serializedVersion: 1
   productId: 154271
@@ -9,6 +10,8 @@ AssetOrigin:
   packageVersion: 2.3
   assetPath: Assets/Kevin Iglesias/Basic Motions/Animations/Male/Movement/Walk/HumanM@Walk01_Forward.fbx
   uploadId: 705207
+=======
+>>>>>>> Stashed changes
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -25,6 +28,11 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
+<<<<<<< Updated upstream
+=======
+    rigImportErrors: 
+    rigImportWarnings: 
+>>>>>>> Stashed changes
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -63,6 +71,7 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
+<<<<<<< Updated upstream
       events:
       - time: 0.5037037
         functionName: Passos
@@ -78,6 +87,9 @@ ModelImporter:
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
+=======
+      events: []
+>>>>>>> Stashed changes
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -846,7 +858,12 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
+<<<<<<< Updated upstream
   lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 0e1e29b35a3700748811d120b13ed8d6, type: 3}
+=======
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 0e1e29b35a3700748811d120b13ed8d6,
+    type: 3}
+>>>>>>> Stashed changes
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
@@ -858,3 +875,13 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+<<<<<<< Updated upstream
+=======
+AssetOrigin:
+  serializedVersion: 1
+  productId: 154271
+  packageName: Basic Motions FREE
+  packageVersion: 2.3
+  assetPath: Assets/Kevin Iglesias/Basic Motions/Animations/Male/Movement/Walk/HumanM@Walk01_Forward.fbx
+  uploadId: 705207
+>>>>>>> Stashed changes
